@@ -1,0 +1,93 @@
+﻿@using System.IO
+@model IEnumerable<ClaimPro.Models.Claim>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Claim History</h1>
+
+<p>
+    <a asp-action="Create">Create New Claim</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.First().HoursWorked)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.First().HourlyRate)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.First().TotalAmount)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.First().SubmittedDate)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.First().Status)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.First().DocumentType)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.First().Notes)
+            </th>
+            <th>Uploaded File Name</th>
+            <th>Comments</th> <!-- New column for comments -->
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.HoursWorked)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.HourlyRate)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.TotalAmount)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.SubmittedDate)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Status)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.DocumentType)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Notes)
+                </td>
+                <td>
+                    @{
+                        // Display the original file name or "No file uploaded"
+                        var fileName = !string.IsNullOrEmpty(item.OriginalFileName) ? item.OriginalFileName : "No file uploaded";
+                    }
+                    @fileName
+                </td>
+                <td>
+                    @(!string.IsNullOrEmpty(item.Comments) ? item.Comments : "No comments") <!-- Display comment or "No comments" -->
+                </td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@item.ClaimId">Edit</a> |
+                    <a asp-action="Details" asp-route-id="@item.ClaimId">Details</a> |
+                    <a asp-action="Delete" asp-route-id="@item.ClaimId" onclick="return confirm('Are you sure you want to delete this claim?');">Delete</a>
+                    |
+                    
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+
+
+
+
+

@@ -1,0 +1,113 @@
+/* Base styles */
+body {
+    background-color: #1e1e1e; /* Dark background */
+    color: #ffffff; /* Light text */
+    font-family: 'Arial', sans-serif;
+    margin-bottom: 60px; /* Ensure enough space for the footer */
+}
+
+.navbar {
+    background-color: #1e1e1e;
+    border-bottom: 1px solid #e1bf61; /* Gold border */
+    padding: 1rem 2rem;
+}
+
+.navbar-brand {
+    color: #e1bf61; /* Gold color for the brand name */
+    font-size: 1.5rem;
+}
+
+.navbar-nav .nav-link {
+    color: #ffffff;
+    font-size: 1.2rem;
+    letter-spacing: 0.05em; /* Adds space between letters */
+    margin-right: 1.5rem; /* Space between nav links */
+}
+
+.nav-link:hover {
+    color: #e1bf61; /* Hover effect for links */
+}
+
+/* Specific styles for login/register links in _LoginPartial */
+.navbar .navbar-collapse .navbar-nav .nav-item .nav-link {
+    color: #ffffff !important; /* Force white color for login/register links */
+}
+
+    .navbar .navbar-collapse .navbar-nav .nav-item .nav-link:hover {
+        color: #e1bf61 !important; /* Hover effect for login/register links */
+    }
+
+/* Main content styles */
+.container {
+    color: #ffffff; /* Ensures all text in the main content is white */
+}
+
+h1, h2, h3, h4, h5, h6, p, label {
+    color: #ffffff; /* Make sure headers, paragraphs, and labels are white */
+}
+
+/* Table Styling */
+table {
+    color: #ffffff; /* Table text is white */
+    background-color: #2e2e2e; /* Dark table background */
+}
+
+th, td {
+    color: #ffffff; /* Ensures table headers and data cells are white */
+    border: 1px solid #e1bf61; /* Gold borders for table */
+}
+
+a {
+    color: #e1bf61; /* Ensures all links are gold */
+}
+
+    a:hover {
+        color: #ffffff; /* Hover effect for links: white */
+    }
+
+/* Footer styles */
+.footer {
+    background-color: #1e1e1e;
+    color: #ffffff;
+    padding: 0.25rem 0;
+    text-align: center;
+    font-size: 0.85rem;
+    border-top: 1px solid #e1bf61;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+    .footer a {
+        color: #e1bf61;
+        text-decoration: none;
+        font-size: 0.85rem;
+    }
+
+/* Button styles */
+.btn {
+    background-color: #1e1e1e;
+    border: 2px solid #e1bf61;
+    color: #ffffff;
+    padding: 0.75rem 1.5rem;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    transition: all 0.3s ease;
+}
+
+    .btn:hover {
+        background-color: #e1bf61;
+        color: #1e1e1e;
+    }
+
+/* Form control styling */
+.form-control {
+    background-color: #2e2e2e;
+    border: 1px solid #ffffff;
+    color: #ffffff;
+}
+
+    .form-control:focus {
+        border-color: #e1bf61;
+        box-shadow: none;
+    }

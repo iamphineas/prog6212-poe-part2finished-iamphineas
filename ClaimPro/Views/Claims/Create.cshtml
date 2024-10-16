@@ -1,0 +1,90 @@
+﻿@model ClaimPro.Models.Claim
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h1>Create New Claim</h1>
+
+<h4>Claim Submission</h4>
+<hr />
+<div class="row">
+    <form asp-action="Create" method="post" enctype="multipart/form-data">
+        <div class="form-group">
+            <label asp-for="HoursWorked" class="control-label"></label>
+            <input asp-for="HoursWorked" class="form-control" />
+            <span asp-validation-for="HoursWorked" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <label asp-for="HourlyRate" class="control-label"></label>
+            <input asp-for="HourlyRate" class="form-control" />
+            <span asp-validation-for="HourlyRate" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <label asp-for="TotalAmount" class="control-label"></label>
+            <input asp-for="TotalAmount" class="form-control" />
+            <span asp-validation-for="TotalAmount" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <label asp-for="SubmittedDate" class="control-label"></label>
+            <input asp-for="SubmittedDate" class="form-control" type="datetime-local" />
+            <span asp-validation-for="SubmittedDate" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <label asp-for="DocumentType" class="control-label"></label>
+            <input asp-for="DocumentType" class="form-control" />
+            <span asp-validation-for="DocumentType" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <label asp-for="ImageFile" class="control-label">Upload Supporting Document</label>
+            <input asp-for="ImageFile" type="file" class="form-control" accept=".pdf,.docx,.xlsx,.png,.jpeg,.jpg" id="fileUpload" onchange="displayFileName()" />
+            <span asp-validation-for="ImageFile" class="text-danger"></span>
+            <div id="fileNameDisplay" class="mt-2 text-success"></div>
+            <div id="fileSizeWarning" class="text-danger" style="display:none;">File size exceeds the limit of 5MB.</div>
+        </div>
+        <div class="form-group">
+            <label asp-for="Notes" class="control-label"></label>
+            <input asp-for="Notes" class="form-control" />
+            <span asp-validation-for="Notes" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <input type="submit" value="Submit Claim" class="btn btn-primary" /> <!-- This serves as the Submit button -->
+        </div>
+    </form>
+</div>
+
+<div>
+    <a asp-action="Index">Back to Claims List</a>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}
+<script>
+    function displayFileName() {
+        const fileInput = document.getElementById('fileUpload');
+        const fileNameDisplay = document.getElementById('fileNameDisplay');
+        const fileSizeWarning = document.getElementById('fileSizeWarning');
+
+        if (fileInput.files.length > 0) {
+            const file = fileInput.files[0];
+            fileNameDisplay.innerText = `Uploaded File: ${file.name}`;
+
+            // Check file size (5MB limit)
+            if (file.size > 5 * 1024 * 1024) {
+                fileSizeWarning.style.display = 'block';
+                fileInput.value = ''; // Clear the input
+                fileNameDisplay.innerText = ''; // Clear the file name display
+            } else {
+                fileSizeWarning.style.display = 'none';
+            }
+        } else {
+            fileNameDisplay.innerText = '';
+            fileSizeWarning.style.display = 'none';
+        }
+    }
+</script>
+
+

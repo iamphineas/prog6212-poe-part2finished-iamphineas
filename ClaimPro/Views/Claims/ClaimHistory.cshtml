@@ -1,0 +1,53 @@
+﻿@model IEnumerable<ClaimPro.Models.Claim>
+
+@{
+    ViewData["Title"] = "Claim History";
+}
+
+<h1>Claim History</h1>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Claim ID</th>
+            <th>Lecturer ID</th>
+            <th>Hours Worked</th>
+            <th>Hourly Rate</th>
+            <th>Total Amount</th>
+            <th>Status</th>
+            <th>Comments</th>
+            <th>Submitted Date</th>
+            <th>Approval Date</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var claim in Model)
+        {
+            <tr>
+                <td>@claim.ClaimId</td>
+                <td>@claim.LecturerId</td>
+                <td>@claim.HoursWorked</td>
+                <td>@claim.HourlyRate</td>
+                <td>@claim.TotalAmount</td>
+                <td>@claim.Status</td>
+                <td>@(!string.IsNullOrEmpty(claim.Comments) ? claim.Comments : "No comments")</td>
+                <td>@claim.SubmittedDate?.ToString("g")</td>
+                <td>
+                    @if (claim.ApprovalDate.HasValue)
+                    {
+                        @claim.ApprovalDate?.ToString("yyyy/MM/dd HH:mm")
+                    }
+                    else
+                    {
+                        <text>Not approved</text>
+                    }
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<div>
+    <a asp-action="PendingClaims">Go to Pending Claims</a>
+</div>
+

@@ -1,0 +1,43 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center position-relative">
+    <!-- Section for the image -->
+    <img src="~/images/paper-business-aerial-analysis.jpg" alt="Home Page Banner" class="img-fluid mx-auto d-block" style="width: 100%; max-height: 500px; object-fit: cover;" />
+
+    <div class="overlay-content position-absolute top-50 start-50 translate-middle text-white">
+        <h1 class="display-4">Welcome to the Lecturer Claims Form Portal</h1>
+        <p class="lead mt-3">
+            Submit and manage your claims effortlessly with our user-friendly system.
+        </p>
+        <p>
+            Our platform is designed to streamline the claims process for lecturers. Easily track, submit, and manage all your claims in one convenient place.
+        </p>
+        <a href="@Url.Action("Index", "Claims")" class="btn btn-primary btn-lg mt-3">Submit Your Claim</a>
+    </div>
+</div>
+
+<style>
+    .position-relative {
+        position: relative;
+        overflow: hidden; /* Ensures the image does not overflow the parent */
+        text-align: center; /* Centers text in the overlay */
+    }
+
+    .overlay-content {
+        z-index: 10; /* Ensures text is above the image */
+        background: rgba(0, 0, 0, 0.5); /* Optional: Adds a dark overlay for better contrast */
+        padding: 20px; /* Adds padding around the text */
+        border-radius: 10px; /* Rounds the corners of the overlay */
+    }
+
+    h1 {
+        margin-bottom: 0.5rem; /* Adjusts spacing for the title */
+    }
+</style>
+
+
+
+
+
