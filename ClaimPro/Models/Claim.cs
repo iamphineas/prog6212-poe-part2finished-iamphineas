@@ -37,9 +37,11 @@ namespace ClaimPro.Models
         public DateTime? ApprovalDate { get; set; }
         public string ApprovalStatus { get; set; } = string.Empty;
 
+        // Additional notes regarding the claim
         public string Notes { get; set; } = string.Empty;
         public string Comments { get; set; } = string.Empty;
 
+        // Original file name of the uploaded document
         public string? OriginalFileName { get; set; }
     }
 }
