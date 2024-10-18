@@ -72,15 +72,17 @@ namespace ClaimPro.Controllers
         }
 
         // GET: Claims/Create
-        [Authorize(Roles = "Lecturer")] // Only Lecturers can access Create
+        // Only Lecturers can access Create
+        [Authorize(Roles = "Lecturer")]
         public IActionResult Create()
         {
             return View();
         }
 
+        // Ensure Create is only accessible by Lecturers
         [HttpPost]
         [ValidateAntiForgeryToken]
-        [Authorize(Roles = "Lecturer")] // Ensure Create is only accessible by Lecturers
+        [Authorize(Roles = "Lecturer")]
         public async Task<IActionResult> Create([Bind("ClaimId,LecturerId,HoursWorked,HourlyRate,TotalAmount,Status,SubmittedDate,ImageUrl,ImageFile,DocumentType,ApprovalBy,ApprovalDate,ApprovalStatus,Notes,Comments,OriginalFileName")] Claim claim)
         {
             if (ModelState.IsValid)

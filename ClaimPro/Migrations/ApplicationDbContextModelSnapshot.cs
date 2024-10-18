@@ -52,10 +52,10 @@ namespace ClaimPro.Migrations
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<decimal>("HourlyRate")
-                        .HasColumnType("decimal(18, 4)");
+                        .HasColumnType("decimal(18, 2)");
 
                     b.Property<decimal>("HoursWorked")
-                        .HasColumnType("decimal(18, 4)");
+                        .HasColumnType("decimal(18, 2)");
 
                     b.Property<string>("ImageUrl")
                         .HasColumnType("nvarchar(max)");
@@ -78,7 +78,7 @@ namespace ClaimPro.Migrations
                         .HasColumnType("datetime2");
 
                     b.Property<decimal>("TotalAmount")
-                        .HasColumnType("decimal(18, 4)");
+                        .HasColumnType("decimal(18, 2)");
 
                     b.Property<string>("User")
                         .IsRequired()

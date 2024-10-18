@@ -10,15 +10,16 @@ namespace ClaimPro.Models
 
         public string LecturerId { get; set; } = string.Empty;
 
-        public string User {  get; set; } = string.Empty;
+        public string User { get; set; } = string.Empty;
 
-        [Column(TypeName = "decimal(18, 4)")]
+        // Set decimal precision to 2 decimal places
+        [Column(TypeName = "decimal(18, 2)")]
         public decimal HoursWorked { get; set; } = 0;
 
-        [Column(TypeName = "decimal(18, 4)")]
+        [Column(TypeName = "decimal(18, 2)")]
         public decimal HourlyRate { get; set; } = 0;
 
-        [Column(TypeName = "decimal(18, 4)")]
+        [Column(TypeName = "decimal(18, 2)")]
         public decimal TotalAmount { get; set; } = 0;
 
         public ClaimStatus Status { get; set; } = ClaimStatus.Pending;
@@ -39,8 +40,6 @@ namespace ClaimPro.Models
         public string Notes { get; set; } = string.Empty;
         public string Comments { get; set; } = string.Empty;
 
-        // Add this property if needed
         public string? OriginalFileName { get; set; }
     }
 }
-

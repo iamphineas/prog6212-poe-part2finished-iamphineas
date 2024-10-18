@@ -1,0 +1,385 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\phine\\source\\repos\\ClaimPro\\ClaimPro\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\ClaimPro.bundle.scp.css",
+      "PackagePath": "staticwebassets\\ClaimPro.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\phine\\source\\repos\\ClaimPro\\ClaimPro\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\phine\\source\\repos\\ClaimPro\\ClaimPro\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\phine\\source\\repos\\ClaimPro\\ClaimPro\\wwwroot\\images\\00313ef2-f084-4112-9471-cb8bafffb656.png",
+      "PackagePath": "staticwebassets\\images\\00313ef2-f084-4112-9471-cb8bafffb656.png"
+    },
+    {
+      "Id": "C:\\Users\\phine\\source\\repos\\ClaimPro\\ClaimPro\\wwwroot\\images\\052d3c9b-8f0f-444c-8547-a03ba0452179.png",
+      "PackagePath": "staticwebassets\\images\\052d3c9b-8f0f-444c-8547-a03ba0452179.png"
+    },
+    {
+      "Id": "C:\\Users\\phine\\source\\repos\\ClaimPro\\ClaimPro\\wwwroot\\images\\12d368e3-3602-4209-b54f-f530a89df6cb.png",
+      "PackagePath": "staticwebassets\\images\\12d368e3-3602-4209-b54f-f530a89df6cb.png"
+    },
+    {
+      "Id": "C:\\Users\\phine\\source\\repos\\ClaimPro\\ClaimPro\\wwwroot\\images\\16.jpeg",
+      "PackagePath": "staticwebassets\\images\\16.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\phine\\source\\repos\\ClaimPro\\ClaimPro\\wwwroot\\images\\17.mp4",
+      "PackagePath": "staticwebassets\\images\\17.mp4"
+    },
+    {
+      "Id": "C:\\Users\\phine\\source\\repos\\ClaimPro\\ClaimPro\\wwwroot\\images\\18.jpeg",
+      "PackagePath": "staticwebassets\\images\\18.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\phine\\source\\repos\\ClaimPro\\ClaimPro\\wwwroot\\images\\19.mp4",
+      "PackagePath": "staticwebassets\\images\\19.mp4"
+    },
+    {
+      "Id": "C:\\Users\\phine\\source\\repos\\ClaimPro\\ClaimPro\\wwwroot\\images\\20.jpeg",
+      "PackagePath": "staticwebassets\\images\\20.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\phine\\source\\repos\\ClaimPro\\ClaimPro\\wwwroot\\images\\21.jpeg",
+      "PackagePath": "staticwebassets\\images\\21.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\phine\\source\\repos\\ClaimPro\\ClaimPro\\wwwroot\\images\\22.mp4",
+      "PackagePath": "staticwebassets\\images\\22.mp4"
+    },
+    {
+      "Id": "C:\\Users\\phine\\source\\repos\\ClaimPro\\ClaimPro\\wwwroot\\images\\23.jpeg",
+      "PackagePath": "staticwebassets\\images\\23.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\phine\\source\\repos\\ClaimPro\\ClaimPro\\wwwroot\\images\\2735b4a1-ce38-4fab-b205-35bb2b79f397.png",
+      "PackagePath": "staticwebassets\\images\\2735b4a1-ce38-4fab-b205-35bb2b79f397.png"
+    },
+    {
+      "Id": "C:\\Users\\phine\\source\\repos\\ClaimPro\\ClaimPro\\wwwroot\\images\\2fdf8774-4c9e-4103-9c28-2a02e30dc440.png",
+      "PackagePath": "staticwebassets\\images\\2fdf8774-4c9e-4103-9c28-2a02e30dc440.png"
+    },
+    {
+      "Id": "C:\\Users\\phine\\source\\repos\\ClaimPro\\ClaimPro\\wwwroot\\images\\30cace9f-73eb-449c-85dc-6c2976aaf5bf.png",
+      "PackagePath": "staticwebassets\\images\\30cace9f-73eb-449c-85dc-6c2976aaf5bf.png"
+    },
+    {
+      "Id": "C:\\Users\\phine\\source\\repos\\ClaimPro\\ClaimPro\\wwwroot\\images\\47fd3fc1-2b39-41f7-990d-b3c514c66ab7.png",
+      "PackagePath": "staticwebassets\\images\\47fd3fc1-2b39-41f7-990d-b3c514c66ab7.png"
+    },
+    {
+      "Id": "C:\\Users\\phine\\source\\repos\\ClaimPro\\ClaimPro\\wwwroot\\images\\6f521317-01dc-4588-9d19-3e521e4b45ab.png",
+      "PackagePath": "staticwebassets\\images\\6f521317-01dc-4588-9d19-3e521e4b45ab.png"
+    },
+    {
+      "Id": "C:\\Users\\phine\\source\\repos\\ClaimPro\\ClaimPro\\wwwroot\\images\\7211b5c0-c842-47b5-946d-d319778d9e47.png",
+      "PackagePath": "staticwebassets\\images\\7211b5c0-c842-47b5-946d-d319778d9e47.png"
+    },
+    {
+      "Id": "C:\\Users\\phine\\source\\repos\\ClaimPro\\ClaimPro\\wwwroot\\images\\7571f450-a5d5-4b47-8cd9-d32e52ccf8f4.png",
+      "PackagePath": "staticwebassets\\images\\7571f450-a5d5-4b47-8cd9-d32e52ccf8f4.png"
+    },
+    {
+      "Id": "C:\\Users\\phine\\source\\repos\\ClaimPro\\ClaimPro\\wwwroot\\images\\86796b86-0f75-451b-b53b-9038163ee0db.jpg",
+      "PackagePath": "staticwebassets\\images\\86796b86-0f75-451b-b53b-9038163ee0db.jpg"
+    },
+    {
+      "Id": "C:\\Users\\phine\\source\\repos\\ClaimPro\\ClaimPro\\wwwroot\\images\\8f9e8826-0107-4b9f-8665-8e06f11e6ca4.png",
+      "PackagePath": "staticwebassets\\images\\8f9e8826-0107-4b9f-8665-8e06f11e6ca4.png"
+    },
+    {
+      "Id": "C:\\Users\\phine\\source\\repos\\ClaimPro\\ClaimPro\\wwwroot\\images\\9df92994-0ede-43e4-85d1-9db2ec003f67.png",
+      "PackagePath": "staticwebassets\\images\\9df92994-0ede-43e4-85d1-9db2ec003f67.png"
+    },
+    {
+      "Id": "C:\\Users\\phine\\source\\repos\\ClaimPro\\ClaimPro\\wwwroot\\images\\b2eb3773-6764-4516-889b-1b1787375607.png",
+      "PackagePath": "staticwebassets\\images\\b2eb3773-6764-4516-889b-1b1787375607.png"
+    },
+    {
+      "Id": "C:\\Users\\phine\\source\\repos\\ClaimPro\\ClaimPro\\wwwroot\\images\\bbbabd02-1307-426a-8b54-c90502a1e596.jpg",
+      "PackagePath": "staticwebassets\\images\\bbbabd02-1307-426a-8b54-c90502a1e596.jpg"
+    },
+    {
+      "Id": "C:\\Users\\phine\\source\\repos\\ClaimPro\\ClaimPro\\wwwroot\\images\\c6bb88e4-b073-48cf-ac3f-72fd6a9b1ca7.png",
+      "PackagePath": "staticwebassets\\images\\c6bb88e4-b073-48cf-ac3f-72fd6a9b1ca7.png"
+    },
+    {
+      "Id": "C:\\Users\\phine\\source\\repos\\ClaimPro\\ClaimPro\\wwwroot\\images\\c739c920-ab41-4ddc-a24d-f7ab178c10ff.png",
+      "PackagePath": "staticwebassets\\images\\c739c920-ab41-4ddc-a24d-f7ab178c10ff.png"
+    },
+    {
+      "Id": "C:\\Users\\phine\\source\\repos\\ClaimPro\\ClaimPro\\wwwroot\\images\\d0fbef5d-f848-4d08-b758-bb4d39ff09af.docx",
+      "PackagePath": "staticwebassets\\images\\d0fbef5d-f848-4d08-b758-bb4d39ff09af.docx"
+    },
+    {
+      "Id": "C:\\Users\\phine\\source\\repos\\ClaimPro\\ClaimPro\\wwwroot\\images\\d2cdc083-d4c5-4f49-82ae-09dae09d227b.png",
+      "PackagePath": "staticwebassets\\images\\d2cdc083-d4c5-4f49-82ae-09dae09d227b.png"
+    },
+    {
+      "Id": "C:\\Users\\phine\\source\\repos\\ClaimPro\\ClaimPro\\wwwroot\\images\\e87f36c5-b584-451d-802a-7d78635c053d.png",
+      "PackagePath": "staticwebassets\\images\\e87f36c5-b584-451d-802a-7d78635c053d.png"
+    },
+    {
+      "Id": "C:\\Users\\phine\\source\\repos\\ClaimPro\\ClaimPro\\wwwroot\\images\\f73d4048-9e07-493f-8b68-f45effb9c400.png",
+      "PackagePath": "staticwebassets\\images\\f73d4048-9e07-493f-8b68-f45effb9c400.png"
+    },
+    {
+      "Id": "C:\\Users\\phine\\source\\repos\\ClaimPro\\ClaimPro\\wwwroot\\images\\paper-business-aerial-analysis.jpg",
+      "PackagePath": "staticwebassets\\images\\paper-business-aerial-analysis.jpg"
+    },
+    {
+      "Id": "C:\\Users\\phine\\source\\repos\\ClaimPro\\ClaimPro\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\phine\\source\\repos\\ClaimPro\\ClaimPro\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\phine\\source\\repos\\ClaimPro\\ClaimPro\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\phine\\source\\repos\\ClaimPro\\ClaimPro\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\phine\\source\\repos\\ClaimPro\\ClaimPro\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\phine\\source\\repos\\ClaimPro\\ClaimPro\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\phine\\source\\repos\\ClaimPro\\ClaimPro\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\phine\\source\\repos\\ClaimPro\\ClaimPro\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\phine\\source\\repos\\ClaimPro\\ClaimPro\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\phine\\source\\repos\\ClaimPro\\ClaimPro\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\phine\\source\\repos\\ClaimPro\\ClaimPro\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\phine\\source\\repos\\ClaimPro\\ClaimPro\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\phine\\source\\repos\\ClaimPro\\ClaimPro\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\phine\\source\\repos\\ClaimPro\\ClaimPro\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\phine\\source\\repos\\ClaimPro\\ClaimPro\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\phine\\source\\repos\\ClaimPro\\ClaimPro\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\phine\\source\\repos\\ClaimPro\\ClaimPro\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\phine\\source\\repos\\ClaimPro\\ClaimPro\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\phine\\source\\repos\\ClaimPro\\ClaimPro\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\phine\\source\\repos\\ClaimPro\\ClaimPro\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\phine\\source\\repos\\ClaimPro\\ClaimPro\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\phine\\source\\repos\\ClaimPro\\ClaimPro\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\phine\\source\\repos\\ClaimPro\\ClaimPro\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\phine\\source\\repos\\ClaimPro\\ClaimPro\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\phine\\source\\repos\\ClaimPro\\ClaimPro\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\phine\\source\\repos\\ClaimPro\\ClaimPro\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\phine\\source\\repos\\ClaimPro\\ClaimPro\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\phine\\source\\repos\\ClaimPro\\ClaimPro\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\phine\\source\\repos\\ClaimPro\\ClaimPro\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\phine\\source\\repos\\ClaimPro\\ClaimPro\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\phine\\source\\repos\\ClaimPro\\ClaimPro\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\phine\\source\\repos\\ClaimPro\\ClaimPro\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\phine\\source\\repos\\ClaimPro\\ClaimPro\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\phine\\source\\repos\\ClaimPro\\ClaimPro\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\phine\\source\\repos\\ClaimPro\\ClaimPro\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\phine\\source\\repos\\ClaimPro\\ClaimPro\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\phine\\source\\repos\\ClaimPro\\ClaimPro\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\phine\\source\\repos\\ClaimPro\\ClaimPro\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\phine\\source\\repos\\ClaimPro\\ClaimPro\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\phine\\source\\repos\\ClaimPro\\ClaimPro\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\phine\\source\\repos\\ClaimPro\\ClaimPro\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\phine\\source\\repos\\ClaimPro\\ClaimPro\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\phine\\source\\repos\\ClaimPro\\ClaimPro\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\phine\\source\\repos\\ClaimPro\\ClaimPro\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\phine\\source\\repos\\ClaimPro\\ClaimPro\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\phine\\source\\repos\\ClaimPro\\ClaimPro\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\phine\\source\\repos\\ClaimPro\\ClaimPro\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\phine\\source\\repos\\ClaimPro\\ClaimPro\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\phine\\source\\repos\\ClaimPro\\ClaimPro\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\phine\\source\\repos\\ClaimPro\\ClaimPro\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\phine\\source\\repos\\ClaimPro\\ClaimPro\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\phine\\source\\repos\\ClaimPro\\ClaimPro\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\phine\\source\\repos\\ClaimPro\\ClaimPro\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\phine\\source\\repos\\ClaimPro\\ClaimPro\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\phine\\source\\repos\\ClaimPro\\ClaimPro\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\phine\\source\\repos\\ClaimPro\\ClaimPro\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\phine\\source\\repos\\ClaimPro\\ClaimPro\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\phine\\source\\repos\\ClaimPro\\ClaimPro\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.ClaimPro.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.ClaimPro.props",
+      "PackagePath": "build\\ClaimPro.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.ClaimPro.props",
+      "PackagePath": "buildMultiTargeting\\ClaimPro.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.ClaimPro.props",
+      "PackagePath": "buildTransitive\\ClaimPro.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
