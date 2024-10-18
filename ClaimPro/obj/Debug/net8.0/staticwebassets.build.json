@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "CqX8LNd5ZZz6HxvxY+YzP27WnEdxqIsB4L9rK1tG4+0=",
+  "Hash": "h8qSUucI8qhQwAPea3vue8PiNCfjAsKKrn8pdCglQ28=",
   "Source": "ClaimPro",
   "BasePath": "_content/ClaimPro",
   "Mode": "Default",
@@ -1328,6 +1328,25 @@
       "OriginalItemSpec": "wwwroot\\images\\17.mp4"
     },
     {
+      "Identity": "C:\\Users\\phine\\source\\repos\\ClaimPro\\ClaimPro\\wwwroot\\images\\17aace13-3e0d-47ec-be50-d7e89d1807de.png",
+      "SourceId": "ClaimPro",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\phine\\source\\repos\\ClaimPro\\ClaimPro\\wwwroot\\",
+      "BasePath": "_content/ClaimPro",
+      "RelativePath": "images/17aace13-3e0d-47ec-be50-d7e89d1807de.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\17aace13-3e0d-47ec-be50-d7e89d1807de.png"
+    },
+    {
       "Identity": "C:\\Users\\phine\\source\\repos\\ClaimPro\\ClaimPro\\wwwroot\\images\\18.jpeg",
       "SourceId": "ClaimPro",
       "SourceType": "Discovered",
@@ -1497,6 +1516,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\30cace9f-73eb-449c-85dc-6c2976aaf5bf.png"
+    },
+    {
+      "Identity": "C:\\Users\\phine\\source\\repos\\ClaimPro\\ClaimPro\\wwwroot\\images\\3d3aee60-179f-4312-9198-c4f7b4fbb543.png",
+      "SourceId": "ClaimPro",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\phine\\source\\repos\\ClaimPro\\ClaimPro\\wwwroot\\",
+      "BasePath": "_content/ClaimPro",
+      "RelativePath": "images/3d3aee60-179f-4312-9198-c4f7b4fbb543.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\3d3aee60-179f-4312-9198-c4f7b4fbb543.png"
     },
     {
       "Identity": "C:\\Users\\phine\\source\\repos\\ClaimPro\\ClaimPro\\wwwroot\\images\\47fd3fc1-2b39-41f7-990d-b3c514c66ab7.png",

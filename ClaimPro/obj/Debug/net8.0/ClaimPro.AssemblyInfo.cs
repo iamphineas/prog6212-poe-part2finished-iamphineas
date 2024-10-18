@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ClaimPro")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+39b894f6092e887a5e84abf466b4f02c84eec33b")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7bc7691fab62061275c024cacda4b4b4fca65aa3")]
 [assembly: System.Reflection.AssemblyProductAttribute("ClaimPro")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ClaimPro")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

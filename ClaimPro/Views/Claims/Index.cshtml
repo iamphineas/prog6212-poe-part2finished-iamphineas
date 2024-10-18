@@ -35,7 +35,7 @@
                 @Html.DisplayNameFor(model => model.First().Notes)
             </th>
             <th>Uploaded File Name</th>
-            <th>Comments</th> <!-- New column for comments -->
+            <th>Comments</th>
             <th></th>
         </tr>
     </thead>
@@ -66,13 +66,13 @@
                 </td>
                 <td>
                     @{
-                        // Display the original file name or "No file uploaded"
+                        
                         var fileName = !string.IsNullOrEmpty(item.OriginalFileName) ? item.OriginalFileName : "No file uploaded";
                     }
                     @fileName
                 </td>
                 <td>
-                    @(!string.IsNullOrEmpty(item.Comments) ? item.Comments : "No comments") <!-- Display comment or "No comments" -->
+                    @(!string.IsNullOrEmpty(item.Comments) ? item.Comments : "No comments") 
                 </td>
                 <td>
                     

@@ -289,7 +289,7 @@ namespace ClaimPro.Controllers
             _context.Update(claim);
             await _context.SaveChangesAsync();
 
-            return RedirectToAction(nameof(PendingClaims)); // Redirect to pending claims
+            return RedirectToAction(nameof(PendingClaims)); 
         }
 
         private bool ClaimExists(int id)
