@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "C:\\Users\\phine\\source\\repos\\ClaimPro\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{B650B99E-30BB-4542-9E7A-BD6A39F19A50}|ClaimPro\\ClaimPro.csproj|c:\\users\\phine\\source\\repos\\claimpro\\claimpro\\models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B650B99E-30BB-4542-9E7A-BD6A39F19A50}|ClaimPro\\ClaimPro.csproj|solutionrelative:claimpro\\models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B650B99E-30BB-4542-9E7A-BD6A39F19A50}|ClaimPro\\ClaimPro.csproj|c:\\users\\phine\\source\\repos\\claimpro\\claimpro\\migrations\\20241016124128_identitytables.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B650B99E-30BB-4542-9E7A-BD6A39F19A50}|ClaimPro\\ClaimPro.csproj|solutionrelative:claimpro\\migrations\\20241016124128_identitytables.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{B650B99E-30BB-4542-9E7A-BD6A39F19A50}|ClaimPro\\ClaimPro.csproj|c:\\users\\phine\\source\\repos\\claimpro\\claimpro\\models\\claim.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B650B99E-30BB-4542-9E7A-BD6A39F19A50}|ClaimPro\\ClaimPro.csproj|solutionrelative:claimpro\\models\\claim.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -27,6 +35,32 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "ApplicationUser.cs",
+              "DocumentMoniker": "C:\\Users\\phine\\source\\repos\\ClaimPro\\ClaimPro\\Models\\ApplicationUser.cs",
+              "RelativeDocumentMoniker": "ClaimPro\\Models\\ApplicationUser.cs",
+              "ToolTip": "C:\\Users\\phine\\source\\repos\\ClaimPro\\ClaimPro\\Models\\ApplicationUser.cs",
+              "RelativeToolTip": "ClaimPro\\Models\\ApplicationUser.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-18T20:53:48.755Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "20241016124128_IdentityTables.cs",
+              "DocumentMoniker": "C:\\Users\\phine\\source\\repos\\ClaimPro\\ClaimPro\\Migrations\\20241016124128_IdentityTables.cs",
+              "RelativeDocumentMoniker": "ClaimPro\\Migrations\\20241016124128_IdentityTables.cs",
+              "ToolTip": "C:\\Users\\phine\\source\\repos\\ClaimPro\\ClaimPro\\Migrations\\20241016124128_IdentityTables.cs",
+              "RelativeToolTip": "ClaimPro\\Migrations\\20241016124128_IdentityTables.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-18T20:48:10.77Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "Claim.cs",
               "DocumentMoniker": "C:\\Users\\phine\\source\\repos\\ClaimPro\\ClaimPro\\Models\\Claim.cs",
               "RelativeDocumentMoniker": "ClaimPro\\Models\\Claim.cs",
@@ -39,7 +73,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "20241016113602_AddOriginalFileNameToClaim.cs",
               "DocumentMoniker": "C:\\Users\\phine\\source\\repos\\ClaimPro\\ClaimPro\\Migrations\\20241016113602_AddOriginalFileNameToClaim.cs",
               "RelativeDocumentMoniker": "ClaimPro\\Migrations\\20241016113602_AddOriginalFileNameToClaim.cs",
@@ -47,8 +81,7 @@
               "RelativeToolTip": "ClaimPro\\Migrations\\20241016113602_AddOriginalFileNameToClaim.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-18T20:40:37.341Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-18T20:40:37.341Z"
             }
           ]
         }

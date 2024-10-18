@@ -4,11 +4,14 @@ namespace ClaimPro.Models
 {
     public class ApplicationUser : IdentityUser
     {
+        // First name of the user, marked as required
+        public required string FirstName { get; set; }
 
-        public required string FirstName { get; set; } 
+        // Last name of the user, marked as required
+        public required string LastName { get; set; }
 
-        public required string LastName { get; set; } 
-
-        public virtual ICollection<Claim> Claims { get; set; } = new List<Claim>();
+        // Collection of claims associated with the user
+        public virtual ICollection<Claim> Claims { get; set; } = new List<Claim>(); // Initializes an empty list to store claims related to this user
     }
 }
+
