@@ -12,6 +12,8 @@ namespace ClaimPro.Data
         }
         public DbSet<Claim> Claims { get; set; }
 
-        public DbSet<ApplicationUser> ApplicationUser { get; set; }
+        public DbSet<Invoice> Invoices { get; set; }
+
+        public DbSet<ApplicationUser> ApplicationUsers { get; set; }
     }
 }

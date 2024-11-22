@@ -1,0 +1,58 @@
+﻿@model IEnumerable<ClaimPro.Models.Claim>
+
+@{
+    ViewData["Title"] = "Approved Claims";
+}
+
+<h2>Approved Claims</h2>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Claim ID</th>
+            <th>Lecturer</th>
+            <th>Hours Worked</th>
+            <th>Hourly Rate</th>
+            <th>Total Amount</th>
+            <th>Approval Date</th>
+            <th>Invoice Generated</th>
+            <th>Action</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var claim in Model)
+        {
+                <tr>
+                    <td>@claim.ClaimId</td>
+                    <td>@claim.User</td>
+                    <td>@claim.HoursWorked</td>
+                    <td>@claim.HourlyRate.ToString("C")</td>
+                    <td>@claim.TotalAmount.ToString("C")</td>
+                    <td>@claim.ApprovalDate?.ToString("dd MMM yyyy")</td>
+                    <td>
+                    @if (claim.InvoiceGenerated != null)
+                    {
+                                <span class="text-success">Generated on @claim.InvoiceGenerated?.ToString("dd MMM yyyy")</span>
+                    }
+                    else
+                    {
+                                <span class="text-danger">Not Generated</span>
+                    }
+                    </td>
+                    <td>
+                    @if (claim.InvoiceGenerated == null)
+                    {
+                                <form asp-action="GenerateInvoice" asp-controller="Claims" method="post">
+                                    <input type="hidden" name="id" value="@claim.ClaimId" />
+                                    <button type="submit" class="btn btn-primary btn-sm">Generate Invoice</button>
+                                </form>
+                    }
+                    else
+                    {
+                                <span class="text-muted">Invoice Already Generated</span>
+                    }
+                    </td>
+                </tr>
+        }
+    </tbody>
+</table>

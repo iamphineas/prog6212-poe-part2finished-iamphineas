@@ -12,17 +12,17 @@
     <form asp-action="Create" method="post" enctype="multipart/form-data">
         <div class="form-group">
             <label asp-for="HoursWorked" class="control-label"></label>
-            <input asp-for="HoursWorked" class="form-control" />
+            <input asp-for="HoursWorked" class="form-control" id="hoursWorked" oninput="calculateTotal()" />
             <span asp-validation-for="HoursWorked" class="text-danger"></span>
         </div>
         <div class="form-group">
             <label asp-for="HourlyRate" class="control-label"></label>
-            <input asp-for="HourlyRate" class="form-control" />
+            <input asp-for="HourlyRate" class="form-control" id="hourlyRate" oninput="calculateTotal()" />
             <span asp-validation-for="HourlyRate" class="text-danger"></span>
         </div>
         <div class="form-group">
             <label asp-for="TotalAmount" class="control-label"></label>
-            <input asp-for="TotalAmount" class="form-control" />
+            <input asp-for="TotalAmount" class="form-control" id="totalAmount" readonly />
             <span asp-validation-for="TotalAmount" class="text-danger"></span>
         </div>
         <div class="form-group">
@@ -37,10 +37,8 @@
         </div>
         <div class="form-group">
             <label asp-for="ImageFile" class="control-label">Upload Supporting Document</label>
-            <input asp-for="ImageFile" type="file" class="form-control" accept=".pdf,.docx,.xlsx,.png,.jpeg,.jpg" id="fileUpload" onchange="displayFileName()" />
+            <input asp-for="ImageFile" type="file" class="form-control" accept=".pdf,.docx,.xlsx,.png,.jpeg,.jpg" />
             <span asp-validation-for="ImageFile" class="text-danger"></span>
-            <div id="fileNameDisplay" class="mt-2 text-success"></div>
-            <div id="fileSizeWarning" class="text-danger" style="display:none;">File size exceeds the limit of 5MB.</div>
         </div>
         <div class="form-group">
             <label asp-for="Notes" class="control-label"></label>
@@ -48,7 +46,7 @@
             <span asp-validation-for="Notes" class="text-danger"></span>
         </div>
         <div class="form-group">
-            <input type="submit" value="Submit Claim" class="btn btn-primary" /> 
+            <input type="submit" value="Submit Claim" class="btn btn-primary" />
         </div>
     </form>
 </div>
@@ -63,28 +61,10 @@
     }
 }
 <script>
-    function displayFileName() {
-        const fileInput = document.getElementById('fileUpload');
-        const fileNameDisplay = document.getElementById('fileNameDisplay');
-        const fileSizeWarning = document.getElementById('fileSizeWarning');
-
-        if (fileInput.files.length > 0) {
-            const file = fileInput.files[0];
-            fileNameDisplay.innerText = `Uploaded File: ${file.name}`;
-
-            // Check to see file size (5MB limit)
-            if (file.size > 5 * 1024 * 1024) {
-                fileSizeWarning.style.display = 'block';
-                fileInput.value = ''; 
-                fileNameDisplay.innerText = ''; 
-            } else {
-                fileSizeWarning.style.display = 'none';
-            }
-        } else {
-            fileNameDisplay.innerText = '';
-            fileSizeWarning.style.display = 'none';
-        }
+    function calculateTotal() {
+        const hoursWorked = parseFloat(document.getElementById('hoursWorked').value) || 0;
+        const hourlyRate = parseFloat(document.getElementById('hourlyRate').value) || 0;
+        const totalAmount = hoursWorked * hourlyRate;
+        document.getElementById('totalAmount').value = totalAmount.toFixed(2);
     }
 </script>
-
-

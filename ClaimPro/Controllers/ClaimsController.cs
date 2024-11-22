@@ -8,6 +8,8 @@ using ClaimPro.Data;
 using ClaimPro.Models;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
+using System.Collections.Generic;
+using Microsoft.AspNetCore.Mvc.Rendering;
 
 namespace ClaimPro.Controllers
 {
@@ -24,7 +26,7 @@ namespace ClaimPro.Controllers
         }
 
         // GET: Claims
-        [Authorize(Roles = "Lecturer")] // Only Lecturers can access Index
+        [Authorize(Roles = "Lecturer")] // Only Lecturers can access their claims
         public async Task<IActionResult> Index()
         {
             return View(await _context.Claims
@@ -72,14 +74,12 @@ namespace ClaimPro.Controllers
         }
 
         // GET: Claims/Create
-        // Only Lecturers can access Create
         [Authorize(Roles = "Lecturer")]
         public IActionResult Create()
         {
             return View();
         }
 
-        // Ensure Create is only accessible by Lecturers
         [HttpPost]
         [ValidateAntiForgeryToken]
         [Authorize(Roles = "Lecturer")]
@@ -109,24 +109,20 @@ namespace ClaimPro.Controllers
                     string wwwRootPath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot");
                     string imagesFolder = Path.Combine(wwwRootPath, "images");
 
-                    // Create the directory if it doesn't exist
                     if (!Directory.Exists(imagesFolder))
                     {
                         Directory.CreateDirectory(imagesFolder);
                     }
 
-                    // Generate a unique file name and save the original file name
-                    claim.OriginalFileName = claim.ImageFile.FileName; // Save original file name
+                    claim.OriginalFileName = claim.ImageFile.FileName;
                     string fileName = Guid.NewGuid().ToString() + Path.GetExtension(claim.ImageFile.FileName);
                     string filePath = Path.Combine(imagesFolder, fileName);
 
-                    // Save the file
                     using (var fileStream = new FileStream(filePath, FileMode.Create))
                     {
                         await claim.ImageFile.CopyToAsync(fileStream);
                     }
 
-                    // Save the relative path to the image URL
                     claim.ImageUrl = "/images/" + fileName;
                 }
 
@@ -150,6 +146,7 @@ namespace ClaimPro.Controllers
         }
 
         // GET: Claims/Edit/5
+        [Authorize(Roles = "Lecturer")]
         public async Task<IActionResult> Edit(int? id)
         {
             if (id == null)
@@ -165,7 +162,6 @@ namespace ClaimPro.Controllers
             return View(claim);
         }
 
-        // POST: Claims/Edit/5
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Edit(int id, [Bind("ClaimId,LecturerId,HoursWorked,HourlyRate,TotalAmount,Status,SubmittedDate,ImageUrl,ImageFile,DocumentType,ApprovalBy,ApprovalDate,ApprovalStatus,Notes,Comments,OriginalFileName")] Claim claim)
@@ -179,11 +175,11 @@ namespace ClaimPro.Controllers
             {
                 try
                 {
-                    // Handle file upload during edit
                     if (claim.ImageFile != null && claim.ImageFile.Length > 0)
                     {
                         string wwwRootPath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot");
                         string imagesFolder = Path.Combine(wwwRootPath, "images");
+
                         if (!Directory.Exists(imagesFolder))
                         {
                             Directory.CreateDirectory(imagesFolder);
@@ -197,7 +193,7 @@ namespace ClaimPro.Controllers
                             await claim.ImageFile.CopyToAsync(fileStream);
                         }
 
-                        claim.ImageUrl = "/images/" + fileName;  // Save the relative path to the image
+                        claim.ImageUrl = "/images/" + fileName;
                     }
 
                     _context.Update(claim);
@@ -220,6 +216,7 @@ namespace ClaimPro.Controllers
         }
 
         // GET: Claims/Delete/5
+        [Authorize(Roles = "Lecturer")]
         public async Task<IActionResult> Delete(int? id)
         {
             if (id == null)
@@ -239,6 +236,7 @@ namespace ClaimPro.Controllers
         // POST: Claims/Delete/5
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
+        [Authorize(Roles = "Lecturer")]
         public async Task<IActionResult> DeleteConfirmed(int id)
         {
             var claim = await _context.Claims.FindAsync(id);
@@ -254,6 +252,7 @@ namespace ClaimPro.Controllers
         // POST: Claims/Reject/5
         [HttpPost]
         [ValidateAntiForgeryToken]
+        [Authorize(Roles = "Manager,Coordinator")]
         public async Task<IActionResult> Reject(int id, string comment)
         {
             var claim = await _context.Claims.FindAsync(id);
@@ -262,19 +261,19 @@ namespace ClaimPro.Controllers
                 return NotFound();
             }
 
-            // Update the claim status and comments
             claim.Status = ClaimStatus.Rejected;
-            claim.Comments = comment; // Save the comment
+            claim.Comments = comment;
 
             _context.Update(claim);
             await _context.SaveChangesAsync();
 
-            return RedirectToAction(nameof(PendingClaims)); // Redirect to pending claims
+            return RedirectToAction(nameof(PendingClaims));
         }
 
         // POST: Claims/Approve/5
         [HttpPost]
         [ValidateAntiForgeryToken]
+        [Authorize(Roles = "Manager,Coordinator")]
         public async Task<IActionResult> Approve(int id)
         {
             var claim = await _context.Claims.FindAsync(id);
@@ -284,18 +283,57 @@ namespace ClaimPro.Controllers
             }
 
             claim.Status = ClaimStatus.Approved;
-            claim.ApprovalDate = DateTime.Now; // Set ApprovalDate here
+            claim.ApprovalDate = DateTime.Now;
 
             _context.Update(claim);
             await _context.SaveChangesAsync();
 
-            return RedirectToAction(nameof(PendingClaims)); 
+            return RedirectToAction(nameof(PendingClaims));
         }
 
+        // HR: View Approved Claims for Invoice Generation
+        // GET: Claims/ApprovedClaims
+        [Authorize(Roles = "HR")]
+        public async Task<IActionResult> ApprovedClaims()
+        {
+            var approvedClaims = await _context.Claims
+                .Where(c => c.Status == ClaimStatus.Approved && c.InvoiceGenerated == null)
+                .ToListAsync();
+
+            return View(approvedClaims);
+        }
+
+        // POST: Claims/GenerateInvoice/5
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        [Authorize(Roles = "HR")]
+        public IActionResult GenerateInvoice(int id)
+        {
+            var claim = _context.Claims.FirstOrDefault(c => c.ClaimId == id);
+            if (claim == null)
+            {
+                return NotFound();
+            }
+
+            claim.InvoiceGenerated = DateTime.Now;
+            _context.SaveChanges();
+
+            return RedirectToAction("ApprovedClaims");
+        }
+
+        // GET: Claims/GeneratedInvoices
+        [Authorize(Roles = "HR")]
+        public async Task<IActionResult> GeneratedInvoices()
+        {
+            var generatedInvoices = await _context.Claims
+                .Where(c => c.InvoiceGenerated != null)
+                .ToListAsync();
+
+            return View(generatedInvoices);
+        }
         private bool ClaimExists(int id)
         {
             return _context.Claims.Any(e => e.ClaimId == id);
         }
     }
 }
-

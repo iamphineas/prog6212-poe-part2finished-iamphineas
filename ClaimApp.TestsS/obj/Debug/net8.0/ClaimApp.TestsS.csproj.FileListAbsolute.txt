@@ -17,6 +17,8 @@ C:\Users\phine\source\repos\ClaimPro\ClaimApp.TestsS\bin\Debug\net8.0\ClaimApp.T
 C:\Users\phine\source\repos\ClaimPro\ClaimApp.TestsS\bin\Debug\net8.0\Azure.Core.dll
 C:\Users\phine\source\repos\ClaimPro\ClaimApp.TestsS\bin\Debug\net8.0\Azure.Identity.dll
 C:\Users\phine\source\repos\ClaimPro\ClaimApp.TestsS\bin\Debug\net8.0\Castle.Core.dll
+C:\Users\phine\source\repos\ClaimPro\ClaimApp.TestsS\bin\Debug\net8.0\FakeItEasy.dll
+C:\Users\phine\source\repos\ClaimPro\ClaimApp.TestsS\bin\Debug\net8.0\FluentAssertions.dll
 C:\Users\phine\source\repos\ClaimPro\ClaimApp.TestsS\bin\Debug\net8.0\Humanizer.dll
 C:\Users\phine\source\repos\ClaimPro\ClaimApp.TestsS\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.Internal.dll
 C:\Users\phine\source\repos\ClaimPro\ClaimApp.TestsS\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
@@ -43,6 +45,7 @@ C:\Users\phine\source\repos\ClaimPro\ClaimApp.TestsS\bin\Debug\net8.0\Microsoft.
 C:\Users\phine\source\repos\ClaimPro\ClaimApp.TestsS\bin\Debug\net8.0\Microsoft.DotNet.Scaffolding.Shared.dll
 C:\Users\phine\source\repos\ClaimPro\ClaimApp.TestsS\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
 C:\Users\phine\source\repos\ClaimPro\ClaimApp.TestsS\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\phine\source\repos\ClaimPro\ClaimApp.TestsS\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.InMemory.dll
 C:\Users\phine\source\repos\ClaimPro\ClaimApp.TestsS\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
 C:\Users\phine\source\repos\ClaimPro\ClaimApp.TestsS\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Sqlite.dll
 C:\Users\phine\source\repos\ClaimPro\ClaimApp.TestsS\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.SqlServer.dll
@@ -364,6 +367,3 @@ C:\Users\phine\source\repos\ClaimPro\ClaimApp.TestsS\obj\Debug\net8.0\refint\Cla
 C:\Users\phine\source\repos\ClaimPro\ClaimApp.TestsS\obj\Debug\net8.0\ClaimApp.TestsS.pdb
 C:\Users\phine\source\repos\ClaimPro\ClaimApp.TestsS\obj\Debug\net8.0\ClaimApp.TestsS.genruntimeconfig.cache
 C:\Users\phine\source\repos\ClaimPro\ClaimApp.TestsS\obj\Debug\net8.0\ref\ClaimApp.TestsS.dll
-C:\Users\phine\source\repos\ClaimPro\ClaimApp.TestsS\bin\Debug\net8.0\FakeItEasy.dll
-C:\Users\phine\source\repos\ClaimPro\ClaimApp.TestsS\bin\Debug\net8.0\FluentAssertions.dll
-C:\Users\phine\source\repos\ClaimPro\ClaimApp.TestsS\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.InMemory.dll

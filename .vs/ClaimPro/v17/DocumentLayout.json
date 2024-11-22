@@ -3,20 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\phine\\source\\repos\\ClaimPro\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B650B99E-30BB-4542-9E7A-BD6A39F19A50}|ClaimPro\\ClaimPro.csproj|c:\\users\\phine\\source\\repos\\claimpro\\claimpro\\models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B650B99E-30BB-4542-9E7A-BD6A39F19A50}|ClaimPro\\ClaimPro.csproj|solutionrelative:claimpro\\models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B650B99E-30BB-4542-9E7A-BD6A39F19A50}|ClaimPro\\ClaimPro.csproj|c:\\users\\phine\\source\\repos\\claimpro\\claimpro\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B650B99E-30BB-4542-9E7A-BD6A39F19A50}|ClaimPro\\ClaimPro.csproj|solutionrelative:claimpro\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B650B99E-30BB-4542-9E7A-BD6A39F19A50}|ClaimPro\\ClaimPro.csproj|c:\\users\\phine\\source\\repos\\claimpro\\claimpro\\migrations\\20241016124128_identitytables.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B650B99E-30BB-4542-9E7A-BD6A39F19A50}|ClaimPro\\ClaimPro.csproj|solutionrelative:claimpro\\migrations\\20241016124128_identitytables.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B650B99E-30BB-4542-9E7A-BD6A39F19A50}|ClaimPro\\ClaimPro.csproj|c:\\users\\phine\\source\\repos\\claimpro\\claimpro\\views\\claims\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B650B99E-30BB-4542-9E7A-BD6A39F19A50}|ClaimPro\\ClaimPro.csproj|solutionrelative:claimpro\\views\\claims\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B650B99E-30BB-4542-9E7A-BD6A39F19A50}|ClaimPro\\ClaimPro.csproj|c:\\users\\phine\\source\\repos\\claimpro\\claimpro\\models\\claim.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B650B99E-30BB-4542-9E7A-BD6A39F19A50}|ClaimPro\\ClaimPro.csproj|solutionrelative:claimpro\\models\\claim.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B650B99E-30BB-4542-9E7A-BD6A39F19A50}|ClaimPro\\ClaimPro.csproj|c:\\users\\phine\\source\\repos\\claimpro\\claimpro\\controllers\\claimscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B650B99E-30BB-4542-9E7A-BD6A39F19A50}|ClaimPro\\ClaimPro.csproj|solutionrelative:claimpro\\controllers\\claimscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B650B99E-30BB-4542-9E7A-BD6A39F19A50}|ClaimPro\\ClaimPro.csproj|c:\\users\\phine\\source\\repos\\claimpro\\claimpro\\migrations\\20241016113602_addoriginalfilenametoclaim.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B650B99E-30BB-4542-9E7A-BD6A39F19A50}|ClaimPro\\ClaimPro.csproj|solutionrelative:claimpro\\migrations\\20241016113602_addoriginalfilenametoclaim.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B650B99E-30BB-4542-9E7A-BD6A39F19A50}|ClaimPro\\ClaimPro.csproj|c:\\users\\phine\\source\\repos\\claimpro\\claimpro\\views\\claims\\approvedclaims.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B650B99E-30BB-4542-9E7A-BD6A39F19A50}|ClaimPro\\ClaimPro.csproj|solutionrelative:claimpro\\views\\claims\\approvedclaims.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -35,53 +35,51 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "ApplicationUser.cs",
-              "DocumentMoniker": "C:\\Users\\phine\\source\\repos\\ClaimPro\\ClaimPro\\Models\\ApplicationUser.cs",
-              "RelativeDocumentMoniker": "ClaimPro\\Models\\ApplicationUser.cs",
-              "ToolTip": "C:\\Users\\phine\\source\\repos\\ClaimPro\\ClaimPro\\Models\\ApplicationUser.cs",
-              "RelativeToolTip": "ClaimPro\\Models\\ApplicationUser.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\phine\\source\\repos\\ClaimPro\\ClaimPro\\Program.cs",
+              "RelativeDocumentMoniker": "ClaimPro\\Program.cs",
+              "ToolTip": "C:\\Users\\phine\\source\\repos\\ClaimPro\\ClaimPro\\Program.cs",
+              "RelativeToolTip": "ClaimPro\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-18T20:53:48.755Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "20241016124128_IdentityTables.cs",
-              "DocumentMoniker": "C:\\Users\\phine\\source\\repos\\ClaimPro\\ClaimPro\\Migrations\\20241016124128_IdentityTables.cs",
-              "RelativeDocumentMoniker": "ClaimPro\\Migrations\\20241016124128_IdentityTables.cs",
-              "ToolTip": "C:\\Users\\phine\\source\\repos\\ClaimPro\\ClaimPro\\Migrations\\20241016124128_IdentityTables.cs",
-              "RelativeToolTip": "ClaimPro\\Migrations\\20241016124128_IdentityTables.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-18T20:48:10.77Z",
+              "WhenOpened": "2024-11-22T14:49:35.841Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Claim.cs",
-              "DocumentMoniker": "C:\\Users\\phine\\source\\repos\\ClaimPro\\ClaimPro\\Models\\Claim.cs",
-              "RelativeDocumentMoniker": "ClaimPro\\Models\\Claim.cs",
-              "ToolTip": "C:\\Users\\phine\\source\\repos\\ClaimPro\\ClaimPro\\Models\\Claim.cs",
-              "RelativeToolTip": "ClaimPro\\Models\\Claim.cs",
-              "ViewState": "AgIAABcAAAAAAAAAAAAswCsAAAA2AAAAAAAAAA==",
+              "Title": "ClaimsController.cs",
+              "DocumentMoniker": "C:\\Users\\phine\\source\\repos\\ClaimPro\\ClaimPro\\Controllers\\ClaimsController.cs",
+              "RelativeDocumentMoniker": "ClaimPro\\Controllers\\ClaimsController.cs",
+              "ToolTip": "C:\\Users\\phine\\source\\repos\\ClaimPro\\ClaimPro\\Controllers\\ClaimsController.cs",
+              "RelativeToolTip": "ClaimPro\\Controllers\\ClaimsController.cs",
+              "ViewState": "AgIAABQBAAAAAAAAAAAiwBUAAAA2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-18T20:41:04.823Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-22T14:13:13.721Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\phine\\source\\repos\\ClaimPro\\ClaimPro\\Views\\Claims\\Create.cshtml",
+              "RelativeDocumentMoniker": "ClaimPro\\Views\\Claims\\Create.cshtml",
+              "ToolTip": "C:\\Users\\phine\\source\\repos\\ClaimPro\\ClaimPro\\Views\\Claims\\Create.cshtml",
+              "RelativeToolTip": "ClaimPro\\Views\\Claims\\Create.cshtml",
+              "ViewState": "AgIAACIAAAAAAAAAAAAowEYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-22T14:11:56.984Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "20241016113602_AddOriginalFileNameToClaim.cs",
-              "DocumentMoniker": "C:\\Users\\phine\\source\\repos\\ClaimPro\\ClaimPro\\Migrations\\20241016113602_AddOriginalFileNameToClaim.cs",
-              "RelativeDocumentMoniker": "ClaimPro\\Migrations\\20241016113602_AddOriginalFileNameToClaim.cs",
-              "ToolTip": "C:\\Users\\phine\\source\\repos\\ClaimPro\\ClaimPro\\Migrations\\20241016113602_AddOriginalFileNameToClaim.cs",
-              "RelativeToolTip": "ClaimPro\\Migrations\\20241016113602_AddOriginalFileNameToClaim.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAzAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-18T20:40:37.341Z"
+              "Title": "ApprovedClaims.cshtml",
+              "DocumentMoniker": "C:\\Users\\phine\\source\\repos\\ClaimPro\\ClaimPro\\Views\\Claims\\ApprovedClaims.cshtml",
+              "RelativeDocumentMoniker": "ClaimPro\\Views\\Claims\\ApprovedClaims.cshtml",
+              "ToolTip": "C:\\Users\\phine\\source\\repos\\ClaimPro\\ClaimPro\\Views\\Claims\\ApprovedClaims.cshtml",
+              "RelativeToolTip": "ClaimPro\\Views\\Claims\\ApprovedClaims.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-22T13:27:43.761Z"
             }
           ]
         }

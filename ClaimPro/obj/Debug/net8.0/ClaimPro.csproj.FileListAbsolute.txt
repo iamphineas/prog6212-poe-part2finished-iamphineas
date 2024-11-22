@@ -1,3 +1,13 @@
+C:\Users\phine\source\repos\ClaimPro\ClaimPro\obj\Debug\net8.0\ClaimPro.csproj.AssemblyReference.cache
+C:\Users\phine\source\repos\ClaimPro\ClaimPro\obj\Debug\net8.0\ClaimPro.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\phine\source\repos\ClaimPro\ClaimPro\obj\Debug\net8.0\ClaimPro.AssemblyInfoInputs.cache
+C:\Users\phine\source\repos\ClaimPro\ClaimPro\obj\Debug\net8.0\ClaimPro.AssemblyInfo.cs
+C:\Users\phine\source\repos\ClaimPro\ClaimPro\obj\Debug\net8.0\ClaimPro.csproj.CoreCompileInputs.cache
+C:\Users\phine\source\repos\ClaimPro\ClaimPro\obj\Debug\net8.0\ClaimPro.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\phine\source\repos\ClaimPro\ClaimPro\obj\Debug\net8.0\ClaimPro.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\phine\source\repos\ClaimPro\ClaimPro\obj\Debug\net8.0\ClaimPro.RazorAssemblyInfo.cache
+C:\Users\phine\source\repos\ClaimPro\ClaimPro\obj\Debug\net8.0\ClaimPro.RazorAssemblyInfo.cs
+C:\Users\phine\source\repos\ClaimPro\ClaimPro\obj\Debug\net8.0\ClaimPro.sourcelink.json
 C:\Users\phine\source\repos\ClaimPro\ClaimPro\bin\Debug\net8.0\appsettings.Development.json
 C:\Users\phine\source\repos\ClaimPro\ClaimPro\bin\Debug\net8.0\appsettings.json
 C:\Users\phine\source\repos\ClaimPro\ClaimPro\bin\Debug\net8.0\ClaimPro.staticwebassets.runtime.json
@@ -8,6 +18,9 @@ C:\Users\phine\source\repos\ClaimPro\ClaimPro\bin\Debug\net8.0\ClaimPro.dll
 C:\Users\phine\source\repos\ClaimPro\ClaimPro\bin\Debug\net8.0\ClaimPro.pdb
 C:\Users\phine\source\repos\ClaimPro\ClaimPro\bin\Debug\net8.0\Azure.Core.dll
 C:\Users\phine\source\repos\ClaimPro\ClaimPro\bin\Debug\net8.0\Azure.Identity.dll
+C:\Users\phine\source\repos\ClaimPro\ClaimPro\bin\Debug\net8.0\Castle.Core.dll
+C:\Users\phine\source\repos\ClaimPro\ClaimPro\bin\Debug\net8.0\FakeItEasy.dll
+C:\Users\phine\source\repos\ClaimPro\ClaimPro\bin\Debug\net8.0\FluentAssertions.dll
 C:\Users\phine\source\repos\ClaimPro\ClaimPro\bin\Debug\net8.0\Humanizer.dll
 C:\Users\phine\source\repos\ClaimPro\ClaimPro\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.Internal.dll
 C:\Users\phine\source\repos\ClaimPro\ClaimPro\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
@@ -34,6 +47,7 @@ C:\Users\phine\source\repos\ClaimPro\ClaimPro\bin\Debug\net8.0\Microsoft.DotNet.
 C:\Users\phine\source\repos\ClaimPro\ClaimPro\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
 C:\Users\phine\source\repos\ClaimPro\ClaimPro\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
 C:\Users\phine\source\repos\ClaimPro\ClaimPro\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\phine\source\repos\ClaimPro\ClaimPro\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.InMemory.dll
 C:\Users\phine\source\repos\ClaimPro\ClaimPro\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
 C:\Users\phine\source\repos\ClaimPro\ClaimPro\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Sqlite.dll
 C:\Users\phine\source\repos\ClaimPro\ClaimPro\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.SqlServer.dll
@@ -66,6 +80,7 @@ C:\Users\phine\source\repos\ClaimPro\ClaimPro\bin\Debug\net8.0\Microsoft.VisualS
 C:\Users\phine\source\repos\ClaimPro\ClaimPro\bin\Debug\net8.0\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
 C:\Users\phine\source\repos\ClaimPro\ClaimPro\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
 C:\Users\phine\source\repos\ClaimPro\ClaimPro\bin\Debug\net8.0\Mono.TextTemplating.dll
+C:\Users\phine\source\repos\ClaimPro\ClaimPro\bin\Debug\net8.0\Moq.dll
 C:\Users\phine\source\repos\ClaimPro\ClaimPro\bin\Debug\net8.0\Newtonsoft.Json.dll
 C:\Users\phine\source\repos\ClaimPro\ClaimPro\bin\Debug\net8.0\NuGet.Common.dll
 C:\Users\phine\source\repos\ClaimPro\ClaimPro\bin\Debug\net8.0\NuGet.Configuration.dll
@@ -264,15 +279,6 @@ C:\Users\phine\source\repos\ClaimPro\ClaimPro\bin\Debug\net8.0\runtimes\win\lib\
 C:\Users\phine\source\repos\ClaimPro\ClaimPro\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
 C:\Users\phine\source\repos\ClaimPro\ClaimPro\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Security.Cryptography.ProtectedData.dll
 C:\Users\phine\source\repos\ClaimPro\ClaimPro\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Windows.Extensions.dll
-C:\Users\phine\source\repos\ClaimPro\ClaimPro\obj\Debug\net8.0\ClaimPro.csproj.AssemblyReference.cache
-C:\Users\phine\source\repos\ClaimPro\ClaimPro\obj\Debug\net8.0\ClaimPro.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\phine\source\repos\ClaimPro\ClaimPro\obj\Debug\net8.0\ClaimPro.AssemblyInfoInputs.cache
-C:\Users\phine\source\repos\ClaimPro\ClaimPro\obj\Debug\net8.0\ClaimPro.AssemblyInfo.cs
-C:\Users\phine\source\repos\ClaimPro\ClaimPro\obj\Debug\net8.0\ClaimPro.csproj.CoreCompileInputs.cache
-C:\Users\phine\source\repos\ClaimPro\ClaimPro\obj\Debug\net8.0\ClaimPro.MvcApplicationPartsAssemblyInfo.cs
-C:\Users\phine\source\repos\ClaimPro\ClaimPro\obj\Debug\net8.0\ClaimPro.MvcApplicationPartsAssemblyInfo.cache
-C:\Users\phine\source\repos\ClaimPro\ClaimPro\obj\Debug\net8.0\ClaimPro.RazorAssemblyInfo.cache
-C:\Users\phine\source\repos\ClaimPro\ClaimPro\obj\Debug\net8.0\ClaimPro.RazorAssemblyInfo.cs
 C:\Users\phine\source\repos\ClaimPro\ClaimPro\obj\Debug\net8.0\staticwebassets.build.json
 C:\Users\phine\source\repos\ClaimPro\ClaimPro\obj\Debug\net8.0\staticwebassets.development.json
 C:\Users\phine\source\repos\ClaimPro\ClaimPro\obj\Debug\net8.0\staticwebassets\msbuild.ClaimPro.Microsoft.AspNetCore.StaticWebAssets.props
@@ -289,9 +295,3 @@ C:\Users\phine\source\repos\ClaimPro\ClaimPro\obj\Debug\net8.0\refint\ClaimPro.d
 C:\Users\phine\source\repos\ClaimPro\ClaimPro\obj\Debug\net8.0\ClaimPro.pdb
 C:\Users\phine\source\repos\ClaimPro\ClaimPro\obj\Debug\net8.0\ClaimPro.genruntimeconfig.cache
 C:\Users\phine\source\repos\ClaimPro\ClaimPro\obj\Debug\net8.0\ref\ClaimPro.dll
-C:\Users\phine\source\repos\ClaimPro\ClaimPro\bin\Debug\net8.0\Castle.Core.dll
-C:\Users\phine\source\repos\ClaimPro\ClaimPro\bin\Debug\net8.0\Moq.dll
-C:\Users\phine\source\repos\ClaimPro\ClaimPro\obj\Debug\net8.0\ClaimPro.sourcelink.json
-C:\Users\phine\source\repos\ClaimPro\ClaimPro\bin\Debug\net8.0\FakeItEasy.dll
-C:\Users\phine\source\repos\ClaimPro\ClaimPro\bin\Debug\net8.0\FluentAssertions.dll
-C:\Users\phine\source\repos\ClaimPro\ClaimPro\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.InMemory.dll

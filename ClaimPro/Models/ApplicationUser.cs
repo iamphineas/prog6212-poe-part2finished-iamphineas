@@ -11,7 +11,7 @@ namespace ClaimPro.Models
         public required string LastName { get; set; }
 
         // Collection of claims associated with the user
-        public virtual ICollection<Claim> Claims { get; set; } = new List<Claim>(); // Initializes an empty list to store claims related to this user
+        public virtual ICollection<Claim> Claims { get; set; } = new List<Claim>(); 
     }
 }
 

@@ -66,20 +66,20 @@
                 </td>
                 <td>
                     @{
-                        
+
                         var fileName = !string.IsNullOrEmpty(item.OriginalFileName) ? item.OriginalFileName : "No file uploaded";
                     }
                     @fileName
                 </td>
                 <td>
-                    @(!string.IsNullOrEmpty(item.Comments) ? item.Comments : "No comments") 
+                    @(!string.IsNullOrEmpty(item.Comments) ? item.Comments : "No comments")
                 </td>
                 <td>
-                    
+
                     <a asp-action="Details" asp-route-id="@item.ClaimId">Details</a> |
                     <a asp-action="Delete" asp-route-id="@item.ClaimId" onclick="return confirm('Are you sure you want to delete this claim?');">Delete</a>
                     |
-                    
+
                 </td>
             </tr>
         }

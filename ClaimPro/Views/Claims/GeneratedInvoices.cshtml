@@ -1,0 +1,53 @@
+﻿@model IEnumerable<ClaimPro.Models.Claim>
+
+@{
+    ViewData["Title"] = "Generated Invoices";
+}
+
+<h2>Generated Invoices</h2>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Claim ID</th>
+            <th>Lecturer</th>
+            <th>Total Amount</th>
+            <th>Invoice Generated</th>
+            <th>Action</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var claim in Model)
+        {
+            <tr>
+                <td>@claim.ClaimId</td>
+                <td>@claim.User</td>
+                <td>@claim.TotalAmount.ToString("C")</td>
+                <td>@claim.InvoiceGenerated?.ToString("dd MMM yyyy")</td>
+                <td>
+                    @if (claim.InvoiceGenerated == null)
+                    {
+                        <form method="post" action="@Url.Action("GenerateInvoice", "Claims", new { id = claim.ClaimId })">
+                            <button type="submit" class="btn btn-primary">Generate Invoice</button>
+                        </form>
+                    }
+                    else
+                    {
+                        <span class="text-success">Invoice Generated</span>
+                    }
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+@if (Model.Count() > 0)
+{
+    <div class="pagination">
+        <!-- Implement pagination links here -->
+    </div>
+}
+else
+{
+    <p>No generated invoices found.</p>
+}

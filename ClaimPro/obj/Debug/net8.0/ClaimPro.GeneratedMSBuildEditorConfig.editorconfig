@@ -194,6 +194,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXBwUm9sZXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/phine/source/repos/ClaimPro/ClaimPro/Views/Claims/ApprovedClaims.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xhaW1zXEFwcHJvdmVkQ2xhaW1zLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/phine/source/repos/ClaimPro/ClaimPro/Views/Claims/ClaimHistory.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xhaW1zXENsYWltSGlzdG9yeS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
@@ -212,6 +216,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/phine/source/repos/ClaimPro/ClaimPro/Views/Claims/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xhaW1zXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/phine/source/repos/ClaimPro/ClaimPro/Views/Claims/GeneratedInvoices.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xhaW1zXEdlbmVyYXRlZEludm9pY2VzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/phine/source/repos/ClaimPro/ClaimPro/Views/Claims/Index.cshtml]

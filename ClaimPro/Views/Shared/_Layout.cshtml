@@ -1,6 +1,4 @@
-﻿
-
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="utf-8" />
@@ -39,6 +37,16 @@
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" asp-area="" asp-controller="Claims" asp-action="ClaimHistory">CLAIMS HISTORY</a>
+                            </li>
+                        }
+
+                        @if (User.IsInRole("HR"))
+                        {
+                            <li class="nav-item">
+                                <a class="nav-link" asp-area="" asp-controller="Claims" asp-action="ApprovedClaims">APPROVED CLAIMS</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" asp-area="" asp-controller="Claims" asp-action="GeneratedInvoices">GENERATED INVOICES</a>
                             </li>
                         }
 

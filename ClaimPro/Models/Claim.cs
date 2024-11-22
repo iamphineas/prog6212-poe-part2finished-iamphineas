@@ -40,6 +40,8 @@ namespace ClaimPro.Models
         // Additional notes regarding the claim
         public string Notes { get; set; } = string.Empty;
         public string Comments { get; set; } = string.Empty;
+        public DateTime? InvoiceGenerated { get; set; }
+
 
         // Original file name of the uploaded document
         public string? OriginalFileName { get; set; }
